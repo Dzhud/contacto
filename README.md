@@ -15,6 +15,7 @@ To clone the repository, use the following command:
 
 ```bash
 git clone [https://github.com/Dzhud/contacto-app.git](https://github.com/Dzhud/contacto.git)
+```
 
 # Installation <a name="installation"></a>
 
@@ -24,6 +25,7 @@ git clone [https://github.com/Dzhud/contacto-app.git](https://github.com/Dzhud/c
 python3 -m venv .venv
 source .venv/bin/activate  # For Linux/macOS
 .venv\Scripts\activate     # For Windows
+```
 
 ### Install project dependencies:
 
