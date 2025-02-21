@@ -14,7 +14,7 @@ This is a simple Contacts web application built using Django, demonstrating basi
 To clone the repository, use the following command:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/contacto-app.git](https://github.com/Dzhud/contacto.git)
+git clone [https://github.com/Dzhud/contacto-app.git](https://github.com/Dzhud/contacto.git)
 
 # Installation <a name="installation"></a>
 
@@ -24,7 +24,6 @@ git clone [https://github.com/YOUR_USERNAME/contacto-app.git](https://github.com
 python3 -m venv .venv
 source .venv/bin/activate  # For Linux/macOS
 .venv\Scripts\activate     # For Windows
-```
 
 ### Install project dependencies:
 
@@ -34,11 +33,6 @@ pip install -r requirements.txt
 
 > *(Create a `requirements.txt` file in your project root and list all required packages: `django`, `djangorestframework`, etc. Use `pip freeze > requirements.txt` to generate the file.)*
 
-### Install Node.js packages:
-
-```bash
-npm install
-```
 
 ---
 
@@ -49,12 +43,6 @@ npm install
 ```bash
 python manage.py makemigrations
 python manage.py migrate
-```
-
-### Compile static files:
-
-```bash
-npx tailwindcss -i ./contactoapp/static/contactoapp/css/input.css -o ./contactoapp/static/contactoapp/css/output.css --watch &
 ```
 
 ### Start the development server:
